@@ -25,8 +25,9 @@ can be made in an iterative way that minimizes disruption.
 - [ ] The component API **prioritizes the developer experience** above
       complexity of implementation. - [ ] The component API feels approachable.
 - [ ] The component supports **interoperability** and supports a wide band of
-      coverage: - [ ] API is not [limited to specific versions of React](#). - [
-      ] API is not [limited to specific versions of node](#).
+      coverage: <!-- prettier-ignore-start --> - [ ] API is not
+      [limited to specific versions of React](#). - [ ] API is not
+      [limited to specific versions of node](#). <!-- prettier-ignore-end -->
 - [ ] If the component replaces another, the previous version should be
       deprecated.
 - [ ] The component is broken into logical pieces and supports multiple
@@ -107,10 +108,11 @@ offerings can be used on as many devices as possible.
       appropriate years.
 - [ ] Each component has an interface with all props typed.
 - [ ] Each component interface is exported for use in consuming projects.
-- [ ] The component has been exported properly. - [ ] The component(s) JS is
-      exported in `/src/components/index.js`. - [ ] The component SCSS is
-      included in `/src/components/_index.scss`. - [ ] The component has a flag
-      in `package-settings.js`.
+- [ ] The component has been exported properly. <!-- prettier-ignore-start --> -
+      [ ] The component(s) JS is exported in `/src/components/index.js`. - [ ]
+      The component SCSS is included in `/src/components/_index.scss`. - [ ] The
+      component has a flag in `package-settings.js`.
+      <!-- prettier-ignore-end -->
 - [ ] The component SCSS file explicitly imports the SCSS for each of the Carbon
       and IBM Products components imported and used by the JavaScript code.
 - [ ] If the component or change requires migration by consumers, an automated
@@ -142,9 +144,10 @@ behind our approach are the same.
 #### Unit testing
 
 - [ ] The component API and functionality has been thoroughly tested using
-      `jest` and `testing-library`. - [ ] There is a set of test cases for the
-      components. - [ ] Each prop in the component API has a test to ensure that
-      the prop behaves as expected and that outputs are appropriate.
+      `jest` and `testing-library`. <!-- prettier-ignore-start --> - [ ] There
+      is a set of test cases for the components. - [ ] Each prop in the
+      component API has a test to ensure that the prop behaves as expected and
+      that outputs are appropriate. <!-- prettier-ignore-end -->
 - [ ] Component unit test coverage should meet or exceed 80% of functions,
       lines, statements, etc.
 - [ ] Component includes testing in a server-side environment.
