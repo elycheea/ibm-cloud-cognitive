@@ -22,11 +22,11 @@ following requirements.
 Careful consideration of API design ensures that future changes to the system
 can be made in an iterative way that minimizes disruption.
 
-- [ ] The component API **prioritizes the **developer experience\*\* above
+- [ ] The component API **prioritizes the developer experience** above
       complexity of implementation. - [ ] The component API feels approachable.
 - [ ] The component supports **interoperability** and supports a wide band of
-      coverage: - [ ] API is not [limited to specific versions of React](). - [
-      ] API is not [limited to specific versions of node]().
+      coverage: - [ ] API is not [limited to specific versions of React](#). - [
+      ] API is not [limited to specific versions of node](#).
 - [ ] If the component replaces another, the previous version should be
       deprecated.
 - [ ] The component is broken into logical pieces and supports multiple
